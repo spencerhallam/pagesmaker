@@ -1,4 +1,5 @@
 
+//see: https://comicsdevices.com/
 const panelsArr = [0,1,1,1,0]; //1 = solid black border
 const estShotsGroup = {
   typeOne: {areas: "'panel-1 panel-1 panel-1' 'panel-1 panel-1 panel-1' 'panel-2 panel-3 panel-3'", defaults: [0,0,0]}, 
