@@ -1,0 +1,107 @@
+body {
+    background-color: #EEEEEE;
+  }
+  #content {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 764px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 40px
+  }
+  .spread {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .metaPage {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  #frontCover, #backCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cyan;
+  }
+  
+  .page {
+    display: grid;
+    font-size: 8px;
+    padding: 24px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
+    column-gap: 16px;
+    row-gap: 16px;
+    border: 1px dashed cyan;
+    height: 332px;
+    width: 332px;
+  }
+  /* .page:nth-child(odd) {
+    border-left-style: none;
+  } */
+  .pageNumber {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1em;
+    padding: 8px 0px;
+    margin-top: 10px;
+  }; 
+  
+  
+  .panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 8px;
+  }
+  div.panel {
+    padding: 5px;
+  }
+  
+  .panel-1 {
+    grid-area: panel-1;
+  }
+  .panel-2 {
+    grid-area: panel-2;
+  }
+  .panel-3 {
+    grid-area: panel-3;
+  }
+  .panel-4 {
+    grid-area: panel-4;
+  }
+  .panel-5 {
+    grid-area: panel-5;
+  }
+  .panel-6 {
+    grid-area: panel-6;
+  }
+  .panel-7 {
+    grid-area: panel-7;
+  }
+  .panel-8 {
+    grid-area: panel-8;
+  }
+  .panel-9 {
+    grid-area: panel-9;
+  }
+  .panel-10 {
+    grid-area: panel-10;
+  }
+  .panel-11 {
+    grid-area: panel-10;
+  }
+  
+  div.pageGoalz {
+    display: block;
+    margin-bottom: 10px;
+  }
